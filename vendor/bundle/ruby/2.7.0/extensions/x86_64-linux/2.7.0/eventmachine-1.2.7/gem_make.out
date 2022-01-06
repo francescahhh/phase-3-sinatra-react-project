@@ -1,0 +1,16 @@
+current directory: /home/brooks88/Development/school-work/mod3/phase-3-sinatra-react-project/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/usr/share/rvm/rubies/ruby-2.7.4/bin/ruby -I /usr/share/rvm/rubies/ruby-2.7.4/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220104-16220-10v4feg.rb extconf.rb
+creating Makefile
+
+current directory: /home/brooks88/Development/school-work/mod3/phase-3-sinatra-react-project/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /home/brooks88/Development/school-work/mod3/phase-3-sinatra-react-project/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/brooks88/Development/school-work/mod3/phase-3-sinatra-react-project/vendor/bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/bin/install -m 0755 fastfilereaderext.so ./.gem.20220104-16220-n7ptcf
