@@ -3,13 +3,13 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/" do
-    { message: "Good luck with your project!" }.to_json
+    { message: "wow" }.to_json
   end
 
 end
 
 
-# get '/restaurant' do 
+# get './app/models/restaurant' do 
 #   restaurants = Restaurant.all.order(:name).limit(10)
 #   restaurants.to_json
 # end
