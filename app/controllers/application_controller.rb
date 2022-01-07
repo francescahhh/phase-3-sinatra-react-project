@@ -2,9 +2,14 @@ class ApplicationController < Sinatra::Base
   set :default_content_type, 'application/json'
   
   get '/restaurants' do 
-  restaurant = Restaurant.all
-  restaurant.to_json
-end
+    restaurant = Restaurant.all
+    restaurant.to_json
+  end
+
+  get '/users' do
+    user = User.all
+    user.to_json
+  end
 end
 
 
